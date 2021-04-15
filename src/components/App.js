@@ -1,9 +1,14 @@
 import { ReactComponent } from '*.svg';
 import React from 'react';
+import SearchBar from './SearchBar.js';
 
 class App extends React.Component {
   render() {
-    return <div>App</div>;
+    return (
+    <div>
+      <SearchBar />
+    </div>
+    );
   }
 }
 
